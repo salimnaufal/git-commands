@@ -1,0 +1,22 @@
+git commands
+
+//initial commands
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git config --list
+
+//start git for a particular project/folder
+git init
+
+//stage and commit
+git status
+git add -A
+git commit -m "First commit! "
+
+//push to github.com
+git remote add origin https://github.com/salimnaufal/django3-password-generator.git
+git branch -M main
+git push -u origin main
+
+//return to a save point
+git stash  //to delete changes and return to sates in the last commit
