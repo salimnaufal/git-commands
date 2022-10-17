@@ -22,3 +22,4 @@ git push -u origin main
 git stash  //to delete changes and return to sates in the last commit
 
 //need to add another commands
+//
